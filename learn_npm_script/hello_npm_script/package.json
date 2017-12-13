@@ -1,0 +1,20 @@
+{
+  "name": "hello_npm_script",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:js": "eslint *.js",
+    "lint:css": "stylelint *.css",
+    "test": "npm-run-all lint:*"
+  },
+  "keywords": [],
+  "author": "YanTing <1178170499@qq.com> (https://github.com/YanTing1111)",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "npm-run-all": "^4.1.2",
+    "stylelint": "^8.3.1",
+    "stylelint-config-standard": "^18.0.0"
+  }
+}
